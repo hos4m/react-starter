@@ -1,7 +1,7 @@
 {
-  "name": "city-chat",
+  "name": "react-starter",
   "version": "1.0.0",
-  "description": "Chat with other people in the same city",
+  "description": "React project starter",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
@@ -10,24 +10,31 @@
     "jslint": "./node_modules/.bin/eslint './src/**/*.js'",
     "stylelint": "stylelint '**/*.scss'"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run jslint && npm run stylelint"
+    }
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hos4m/city-chat.git"
+    "url": "git+https://github.com/hos4m/react-starter.git"
   },
   "keywords": [
     "react",
-    "websocket",
+    "webpack",
+    "eslint",
+    "stylelint",
+    "babel",
     "javascript",
-    "nodejs",
     "css",
     "html"
   ],
   "author": "Hossam Mourad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hos4m/city-chat/issues"
+    "url": "https://github.com/hos4m/react-starter/issues"
   },
-  "homepage": "https://github.com/hos4m/city-chat#readme",
+  "homepage": "https://github.com/hos4m/react-starter#readme",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -47,6 +54,7 @@
     "eslint-plugin-react": "^7.11.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^1.1.1",
     "node-sass": "^4.9.3",
     "sass-bulk-import-loader": "^0.1.1",
     "sass-loader": "^7.1.0",

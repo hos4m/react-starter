@@ -11,7 +11,7 @@
 
 ### Scripts
 * `npm install`
-* `npm start` => port 3000
+* `npm start` => port 8080
 * `npm run jslint` => runs ESLint on all `.js` files inside the `src` directory
 * `npm run stylelint` => runs Stylelint on all `.scss` files inside the `src` directory
 

@@ -4,6 +4,7 @@
 - React 16
 - react-router-dom
 - Webpack 4
+- Babel
 - SCSS
 - ESLint (airbnb) [ https://github.com/eslint/eslint ]
 - Stylelint [ https://github.com/stylelint/stylelint ]

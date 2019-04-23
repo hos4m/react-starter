@@ -1,7 +1,7 @@
 # React Starter
 
 ### Packages & Libraries
-- React 16
+- React 16.8.6 (supports React Hooks)
 - react-router-dom
 - Webpack 4
 - Babel

@@ -1,15 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import NotFound from './components/NotFound';
-import './assets/styles/main.scss';
+import App from './components/App'
+import './assets/styles/main.scss'
 
-ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route component={NotFound} />
-    </Switch>
-  </Router>,
-  document.querySelector('#app')
-);
+ReactDOM.render(<App />, document.querySelector('#app'))
